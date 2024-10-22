@@ -1,8 +1,6 @@
 # advwork
-Qui è presente il file advwork.zip con cui installare il plugin sulle versioni di Moodle dalla 3.4.9 alla 4.0.12
-
 Il plugin Advwork è correttamente installabile e utilizzabile per le versioni di Moodle comprese tra la 3.4.9 e la 4.0.12 sulla quale, con php 7.4.28, sono stati fatti i test.
-Dalla versione 4.1.X in poi, l’installazione del plugin genera un errore.
+Dalla versione 4.1.X in poi, l’installazione genera un errore alla validazione.
 Le versioni di Moodle 4.0.X richiedono una versione di php compresa tra la 7.3.0 e la 8.0.X.
 È raccomandato l’uso delle estensioni di php “sodium” e “exif” ed è necessario che la variabile “max_input_vars”, che si trova in php.ini, abbia valore superiore a 5000 per le versioni di php 8.X mentre per le versioni 7.X è solo raccomandato.
 Le richieste legate al database in base alla tipologia scelta sono:
@@ -39,4 +37,14 @@ Cliccare su “Choose a file…” e su “Upload a file” nella schermata che 
 
 E viene eseguito di nuovo un check sulle estensioni di php installate, se poi è tutto corretto, nella pagina di check del plugin, si puo’ cliccare su “Upgrade Moodle database now” e avviare l’installazione (simile a quella di Moodle). Una volta terminato, cliccando sul tasto “Continue”, si devono definire le impostazioni di default di Advwork per completare l’installazione, come il “grade for submission”, “grade for assessment”, la “grading strategy” e il numero di reviews da assegnare ai peer (nel mio caso sono stati 100, 100, Accumulative grading with percentage weights e 3 rispettivamente). 
 Per spegnere il processo che tiene attivo il sito in locale, bisogna aprire il file “Stop Moodle.exe”, questo chiuderà il vecchio terminale rimasto aperto fermando i servizi Apache e MariaDB.
+
+Precedenti tesisti sull'argomento:
+Jacopo Colozzi A.A. 2021/2022 - Moodle-answer: un sistema docker-wise per sperimentare la Valutazione tra Pari.
+
+Valeria Stramazzo A.A. 2020/2021 - WorkShop 2.0 – Valutazione automatica di Esercizi svolti in un Ambiente di Peer Assessment, basata sulla Modellazione degli Studenti.
+
+Bruno Marino A.A. 2017/2018 - OpenAnswer - Sistema basato sulla peerevaluation per la correzione semi-automatica di esercizi: creazione modulo Moodle e sviluppo report avanzati.
+
+Antonio Lonta A.A. 2016/2017 - Aggiornamento sperimentazione di un sistema per la correzione semiautomatica di domande aperte basato sulla peer-evaluation e sull’intervento del docente.
+
 
