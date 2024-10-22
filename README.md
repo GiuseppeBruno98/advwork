@@ -33,10 +33,11 @@ L’ultima fase dell’installazione richiede di definire le impostazioni di bas
 
 Per l’installazione del plugin Advwork è necessario andare nel menù in alto su “Site administration” ->Plugins ->Install plugins.
 
-Cliccare su “Choose a file…” e su “Upload a file” nella schermata che viene aperta, è possibile scegliere il file locale advwork.zip da installare. Proseguendo viene richiesta un'altra conferma dopo la validazione del file.
-
-E viene eseguito di nuovo un check sulle estensioni di php installate, se poi è tutto corretto, nella pagina di check del plugin, si puo’ cliccare su “Upgrade Moodle database now” e avviare l’installazione (simile a quella di Moodle). Una volta terminato, cliccando sul tasto “Continue”, si devono definire le impostazioni di default di Advwork per completare l’installazione, come il “grade for submission”, “grade for assessment”, la “grading strategy” e il numero di reviews da assegnare ai peer (nel mio caso sono stati 100, 100, Accumulative grading with percentage weights e 3 rispettivamente). 
+Cliccare su “Choose a file…” e su “Upload a file” nella schermata che viene aperta, è possibile scegliere il file locale advwork.zip da installare.
+Ricordo che è importante per l'installazione del plugin che il file advwork.zip NON venga rinominato.
+Proseguendo viene richiesta un'altra conferma dopo la validazione del file e viene eseguito di nuovo un check sulle estensioni di php installate, se poi è tutto corretto, nella pagina di check del plugin, si puo’ cliccare su “Upgrade Moodle database now” e avviare l’installazione (simile a quella di Moodle). Una volta terminato, cliccando sul tasto “Continue”, si devono definire le impostazioni di default di Advwork per completare l’installazione, come il “grade for submission”, “grade for assessment”, la “grading strategy” e il numero di reviews da assegnare ai peer (nel mio caso sono stati 100, 100, Accumulative grading with percentage weights e 3 rispettivamente). 
 Per spegnere il processo che tiene attivo il sito in locale, bisogna aprire il file “Stop Moodle.exe”, questo chiuderà il vecchio terminale rimasto aperto fermando i servizi Apache e MariaDB.
+
 
 Precedenti tesisti sull'argomento:
 Jacopo Colozzi A.A. 2021/2022 - Moodle-answer: un sistema docker-wise per sperimentare la Valutazione tra Pari.
